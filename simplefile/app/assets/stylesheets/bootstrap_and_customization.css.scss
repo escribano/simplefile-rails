@@ -1,1 +1,26 @@
+
 @import 'bootstrap';
+
+
+#logo {
+	height: 75px;
+}
+
+body {
+	background: url(girl.jpg) no-repeat;
+	background-size:cover;
+}
+
+.shade {
+	height: 200px;
+	background: white;
+	opacity: .7;
+
+}
+
+#signup-form {
+	position:relative;
+	top: -200px;
+	margin-left: 0;
+	margin-right: 0;
+}
