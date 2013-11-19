@@ -1,0 +1,160 @@
+@import url("//hello.myfonts.net/count/288d40");
+@import url("//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900");
+@import url("//fonts.googleapis.com/css?family=Sanchez:400italic,400");
+
+
+@font-face {font-family: 'Selfica-BlackItalic';
+src: url('/288D40_0_0.eot');
+src: url('/288D40_0_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_0_0.woff') format('woff'),
+	 url('/288D40_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-Black';
+src: url('/288D40_1_0.eot');
+src: url('/288D40_1_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_1_0.woff') format('woff'),
+	 url('/288D40_1_0.ttf') format('truetype');
+	}
+ 
+  
+@font-face {font-family: 'SelficaBoldItalic';
+src: url('/288D40_2_0.eot');
+src: url('/288D40_2_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_2_0.woff') format('woff'),
+	 url('/288D40_2_0.ttf') format('truetype');
+	}
+ 
+  
+@font-face {font-family: 'SelficaBold';
+src: url('/288D40_3_0.eot');
+src: url('/288D40_3_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_3_0.woff') format('woff'),
+	 url('/288D40_3_0.ttf') format('truetype');
+	}
+ 
+  
+@font-face {font-family: 'Selfica-Hairline';
+src: url('/288D40_4_0.eot');
+src: url('/288D40_4_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_4_0.woff') format('woff'),
+	 url('/288D40_4_0.ttf') format('truetype');
+	 }
+ 
+  
+@font-face {font-family: 'Selfica-HairlineItalic';
+src: url('/288D40_5_0.eot');
+src: url('/288D40_5_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_5_0.woff') format('woff'),
+	 url('/288D40_5_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-Italic';
+src: url('/288D40_6_0.eot');
+src: url('/288D40_6_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_6_0.woff') format('woff'),
+	 url('/288D40_6_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-LightItalic';
+src: url('/288D40_7_0.eot');
+src: url('/288D40_7_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_7_0.woff') format('woff'),
+	 url('/288D40_7_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-Light';
+src: url('/288D40_8_0.eot');
+src: url('/288D40_8_0.eot?#iefix') format('embedded-opentype'),
+	url('/288D40_8_0.woff') format('woff'),
+	url('/288D40_8_0.ttf') format('truetype');
+	}
+ 
+  
+@font-face {font-family: 'Selfica';
+src: url('/288D40_9_0.eot');
+src: url('/288D40_9_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_9_0.woff') format('woff'),
+	 url('/288D40_9_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-MediumItalic';
+src: url('/288D40_A_0.eot');
+src: url('/288D40_A_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_A_0.woff') format('woff'),
+	 url('/288D40_A_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-Medium';
+src: url('/288D40_B_0.eot');
+src: url('/288D40_B_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_B_0.woff') format('woff'),
+	 url('/288D40_B_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-ThinItalic';
+src: url('/288D40_C_0.eot');
+src: url('/288D40_C_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_C_0.woff') format('woff'),
+	 url('/288D40_C_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {font-family: 'Selfica-Thin';
+src: url('/288D40_D_0.eot');
+src: url('/288D40_D_0.eot?#iefix') format('embedded-opentype'),
+	 url('/288D40_D_0.woff') format('woff'),
+	 url('/288D40_D_0.ttf') format('truetype');
+}
+
+h1 {
+	font-family: "SelficaBold";
+ }
+
+ h3 {
+ 	font-family: "Selfica-Medium";
+ }
+
+ h4 {
+ 	font-family: "Selfica-Light";
+ }
+
+ h5 {
+ 	font-family: "Selfica";
+ 	font-size: 18px;
+ }
+
+ h6 {
+ 	color:gray;
+ 	font-family: "Selfica-Thin";
+ }
+
+ @mixin label {
+	font-size: 20px;
+}
+
+ label {
+ 	@include label;
+ }
+
+#signup-form h5 {
+	@include label;  
+}
+
+@mixin title {
+	font-size: 50px;
+	color: rgb(26, 26, 131);
+}
+
+#title {
+	@include title;
+}
+
+
