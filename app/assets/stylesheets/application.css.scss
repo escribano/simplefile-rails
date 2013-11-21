@@ -75,32 +75,8 @@ a:hover {
 			margin-top: 0;
 		}
 	}
-	#howitworks {
-			// margin-top: 10px;
-			text-align: center;
-			// margin-left: 30px;
-			display:block;
-			// padding-top: 30px;
-			// padding-bottom: 30px;
-			padding-left: 0;
 
-		.container:first-child {
-			padding-left: 0;
-		}
-		.glyphicon  {
-			font-size: 30px;
-		}
-		.container {
-		  @include make-lg-column(4);
-		  // @include make-lg-column-offset(1);
-		  @include make-md-column(4);
-		  // @include make-md-column-offset(1);
-		  @include make-sm-column(4);
-		  @include make-xs-column(4);
-		  // @include make-sm-column-offset(1);
 
-			}
-		}
 	
 }
 
@@ -124,6 +100,9 @@ footer .container {
 	padding-bottom: 10px;
 }
 
+#signupPage {
+
+
 #cpaimg {
 	margin-top: 20px;
 	margin-left: auto;
@@ -131,13 +110,51 @@ footer .container {
 }
 
 #form2 {
+		padding:30px;
 	.form-group {
-		margin-bottom: 50px;
+		margin-bottom: 30px;
+	}
+	#buttons {
+		margin-top: -15px;
 	}
 }
 
 .glyphicon-certificate {
 	font-size: 28px;
 	margin-left: 20px;
-	margin-top: 5px;
+}
+
+	#howitworks {
+			margin-top: 20px;
+			text-align: center;
+			// margin-left: 30px;
+			display:block;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 0;
+
+		.container:first-child {
+			padding-left: 0;
+		}
+		.glyphicon  {
+			font-size: 30px;
+		}
+		.container {
+		  @include make-lg-column(4);
+		  // @include make-lg-column-offset(1);
+		  @include make-md-column(4);
+		  // @include make-md-column-offset(1);
+		  @include make-sm-column(4);
+		  @include make-xs-column(4);
+		  // @include make-sm-column-offset(1);
+
+			}
+		}
+
+		.well {
+			h4 {
+				margin-top: -8px;
+			}
+
+		}
 }

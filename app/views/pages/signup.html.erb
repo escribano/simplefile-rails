@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="signupPage">
 	<div class="container col-lg-5 pull-left">
 		<img class="img-circle pull-left clearfix img-responsive col-lg-10 col-lg-offset-1" id="cpaimg" src="<%= image_path'stockguy.jpg'%>">
 		<h1 class="pull-left clearfix">Meet Ben.</h1>
@@ -6,41 +6,60 @@
 	</div>
 
 	<div class="container col-lg-5 pull-left">
+
+	<div id="howitworks" class="col-lg-12 pull-left">
+		<div class="container">
+			<span class="glyphicon glyphicon-edit"></span>
+			<h4>You submit</h4>
+		</div>
+
+		<div class="container">
+			<span class="glyphicon glyphicon-user"></span>
+			<h4>We prep</h4>
+			</div>
+		<div class="container">
+			<span class="glyphicon glyphicon-send"></span>
+			<h4>You approve</h4>
+		</div>
+	</div>
+
 		
 		<h1>Let's do this.</h1>
 		<h4>Welcome to the best 5 minutes you'll spend this tax season.</h4>
 			<form role="form" id="form1">
-				<div class="form-group">
-					<label for="name">Name</label>
-		    		<input type="name" class="form-control" id="name" placeholder="Enter name">
-		  		</div>
 
 				<div class="form-group">
 					<label for="email">Email address</label>
 		    		<input type="email" class="form-control" id="email" placeholder="Email">
 		  		</div>
 		  
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-			  </div>
 			  <%= link_to "Sign up", signup_path, id:"signup", class: "btn btn-success btn-lg pull-right" %>
 			</form>
 
 
-               
 
-			<form role="form" class="invisible form-horizontal" id="form2">
-				<h2><small>Pay half today, and the rest when we finish the job.</small><h2>
-                    <div class="form-group col-lg-12">
-                    	<label class="col-lg-5"for="cc-number">Card Number</label>
+
+
+			<form role="form" class="invisible form-horizontal panel panel-default" id="form2">
+<!-- 				<h2><small>Pay half today, and the rest when we finish the job.</small><h2>
+ -->                   
+
+                    	<div class="form-group col-lg-12">
+							<label for="name" class="col-lg-6 pull-left">Name</label>
+							<div class="col-lg-6">
+				    		<input type="name" class="form-control" id="name" placeholder="Enter name">
+				    		</div>
+				  		</div>
+
+				  	<div class="form-group col-lg-12">
+                    	<label class="col-lg-6 pull-left"for="cc-number">Card Number</label>
                         <div class="col-lg-6">
                             <input type="text" id="cc-number" class="form-control" autocomplete="off" placeholder="4111111111111111" maxlength="16" />
                         </div>
                     </div>
 
                     <div class="form-group col-lg-12">
-                    	<label class="col-lg-5" for="cc-ex-month">Expiration</label>
+                    	<label class="col-lg-6 pull-left" for="cc-ex-month">Expiration</label>
                         <div class="col-lg-3">
                             <input type="text" id="cc-ex-month" class="form-control" autocomplete="off" placeholder="01" maxlength="2" />
                         </div>
@@ -50,23 +69,23 @@
                     </div>
 
                     <div class="form-group col-lg-12">
-                        <label class="col-lg-8 control-label">Security Code (CSC)</label>
+                        <label class="col-lg-9 pull-left">Security Code (CSC)</label>
                         <div class="col-lg-3">
                             <input type="text" id="ex-csc" class="form-control" autocomplete="off" placeholder="453" maxlength="4" />
                         </div>
                     </div>
-
-                <a id="cc-back" class="btn btn-large btn-default pull-right">Back</a>
-                <a id="cc-submit" class="btn btn-large btn-primary pull-right">Submit</a>
-
+                <div class="form-group col-lg-6 pull-right" id="buttons">
+                	<a id="cc-back" class="btn btn-large btn-default pull-left">Back</a>
+                	<a id="cc-submit" class="btn btn-large btn-primary pull-right">Submit</a>
+                </div>
         </form>
 
                
 	</div>
-	<div class="container pull-right">
-	   <div class="well well-sm col-lg-5">
+	<div id="promise" class="container pull-left col-lg-5 invisible">
+	   <div class="well">
           <span class="glyphicon glyphicon-certificate"></span>
-          <h4 class="col-lg-10 pull-right">We stand by our work. If you're unsatisfied for any reason, we'll offer a full refund, no questions asked.</h4>
+          <h4 class="pull-right col-lg-10">We stand by our work. If you're unsatisfied for any reason, we'll offer a full refund, no questions asked.</h4>
       </div>
     </div>
 </div>

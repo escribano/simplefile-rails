@@ -114,6 +114,14 @@ $('#signup').click(function(e) {
 	e.preventDefault();
 	$('#form1').addClass("hidden");
 	$('#form2').removeClass("invisible");
+	$('#promise').removeClass('invisible');
 });
+
+$('#cc-back').click(function(e) {
+	e.preventDefault();
+	$('#form1').removeClass("hidden");
+	$('#form2').addClass("invisible");
+	$('#promise').addClass('invisible');
+})
 
 }); // Doc Ready
