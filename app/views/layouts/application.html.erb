@@ -6,6 +6,11 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Balanced Payments -->
+  <script type="text/javascript" src="https://js.balancedpayments.com/v1/balanced.js"></script>
+  <script type="text/javascript">
+    balanced.init('/v1/marketplaces/TEST-MP4ewWz4PW88E1o65vacBSOq');
+</script>
 </head>
 <body>
 	 <%= render 'layouts/header' %>

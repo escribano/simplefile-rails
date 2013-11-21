@@ -115,8 +115,8 @@ src: url(font-path('selfica/288D40_D_0.eot?#iefix')) format('embedded-opentype')
 }
 
 
-$baseFontFamily: "Selfica";
-$baseFontSize:16px;
+// $baseFontFamily: "Selfica";
+// $baseFontSize:16px;
 
 
 h1 {
@@ -147,6 +147,11 @@ h1 {
 
  label {
  	@include label;
+ 	font-family: "Selfica-Medium";
+ }
+
+ small {
+ 	font-family: "Selfica";
  }
 
 #signup-form h5 {

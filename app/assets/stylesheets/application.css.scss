@@ -15,6 +15,9 @@
 
  @import 'bootstrap';
 
+a:hover {
+	text-decoration:none;
+}
 
 .navbar {
 		#title {
@@ -121,3 +124,20 @@ footer .container {
 	padding-bottom: 10px;
 }
 
+#cpaimg {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form2 {
+	.form-group {
+		margin-bottom: 50px;
+	}
+}
+
+.glyphicon-certificate {
+	font-size: 28px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
