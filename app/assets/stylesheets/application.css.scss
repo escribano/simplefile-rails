@@ -10,10 +10,11 @@
  *
  *= require bootstrap
  *= require_self
- *= require_tree .
  */
 
 @import 'bootstrap';
+@import 'home';
+@import 'signup';
 
 a:hover {
 	text-decoration:none;
