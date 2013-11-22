@@ -36,12 +36,12 @@
 }
 
 
-#more-info .panel{
-  @include make-lg-column(3);
-  @include make-lg-column-offset(1);
-  @include make-md-column(3);
-  @include make-md-column-offset(1);
-  @include make-sm-column(3);
-  @include make-sm-column-offset(1);
-  // height: 150px;
-}
+// #more-info .panel{
+//   @include make-lg-column(3);
+//   @include make-lg-column-offset(1);
+//   @include make-md-column(3);
+//   @include make-md-column-offset(1);
+//   @include make-sm-column(3);
+//   @include make-sm-column-offset(1);
+//   // height: 150px;
+// }
