@@ -10,7 +10,8 @@
  *
  *= require bootstrap
  *= require_self
- *= require_tree .
+ *= require signup
+ *= require home 
  */
 
 @import 'bootstrap';
