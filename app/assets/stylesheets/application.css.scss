@@ -10,10 +10,11 @@
  *
  *= require bootstrap
  *= require_self
+ *= require_tree .
  */
 
-
-@import 'MyFontsWebfontsKit';
+@import 'bootstrap';
+@import 'MyWebfontsKit';
 @import 'home';
 @import 'signup';
 
